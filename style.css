@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.left{
+    display: flex;
+    justify-content: start;
+    margin-right: 60%;
+}
+.background{
+    background-image: url('/images/1697037001-47_Social_Sharing_Image_The_BLACKLIST_S10.png');
+    background-repeat: no-repeat;
+    height: 80vh;
+    align-items: center;
+    background-position: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+}
+.blue{
+    background-color: blue;
+   width:50%;
+   margin-top: 250px;
+}
+.black{
+    background-color:black;
+    width:40%;
+    z-index: -1;
+    margin-left: 400px;
+    margin-top: 250px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+}
+.card{
+    background-color: 061C2C;
+    width:30%;
+    padding: 20px;
+    border: 1px solid ;
+    box-sizing:border-box
+}
